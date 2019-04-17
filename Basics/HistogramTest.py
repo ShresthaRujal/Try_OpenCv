@@ -4,7 +4,7 @@ import numpy as np
 # Matplotlib to create our histogram plots
 from matplotlib import pyplot as plt
 
-image = cv2.imread('images/dog.jpg')
+image = cv2.imread('../images/dog.jpg')
 histogram = cv2.calcHist([image],[0],None,[256],[0,256])
 
 plt.hist(image.ravel(),256,[0,256]);plt.show()

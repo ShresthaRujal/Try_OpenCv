@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread('./images/dog.jpg')
+image = cv2.imread('../images/dog.jpg')
 cv2.imshow('Hello World',image)
 cv2.waitKey()
 
